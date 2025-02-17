@@ -45,9 +45,5 @@ ingreso = int(input("Ingresa el precio del producto: $"))
 iva = ingreso * 21 /100
 print(f"El precio de tu producto con iva seria de ${iva + ingreso}")
 
-{ yhge}
-print(rango)
-for i in rango:
-    if i %2 == 1:
-        print(i /2)
+
 

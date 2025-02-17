@@ -1,6 +1,7 @@
 from random import *
 nombre = input("Ingresa tu nombre: ").capitalize()
-print(f"""Bueno, {nombre} he pensado un número entre 1 y 100, y tienes solo ocho intentos para adivinar cuál crees que es el número""")
+print(f"""Bueno, {nombre} he pensado un número entre 1 y 100, 
+y tienes solo ocho intentos para adivinar cuál crees que es el número""")
 numero_secreto = randint(0,100)
 intentos = 8
 print(numero_secreto)

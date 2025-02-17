@@ -41,17 +41,17 @@ palabra = input("Ingresa una palabra: ")
 print(f"La palabra {palabra} comienza desde el indice {texto.index(palabra)}")"""
 
 #.rindex funciona para hacer busquedas de derecha a izquierda
-texto = input("Ingresa una cadena: ")
+texto = str(input("Ingresa una cadena: "))
 palabra = input("Ingresa una letra: ")
 print(f"La ultima aparicion de la letra {palabra} es {texto.rindex(palabra)}")
 
 
-texto = "La programación en Python es divertida"
-palabra =  "Hola" #input("Ingresa una palabra: ")
-if palabra in texto:
-    print(f"La palabra {palabra} se encuentra  desde la posicion "
-      f"{texto.index(palabra[0])} y termina en la posicion: {texto.rindex(palabra[-1])}")
-else:
-    print(f"La palabra {palabra} no se encuentra en el texto")
+#texto = "La programación en Python es divertida"
+#palabra =""""  "Hola" #input("Ingresa una palabra: ")
+#if palabra in texto:
+#    print(f"La palabra {palabra} se encuentra  desde la posicion "
+#      f"{texto.index(palabra[0])} y termina en la posicion: {texto.rindex(palabra[-1])}")
+#else:
+#    print(f"La palabra {palabra} no se encuentra en el texto")""""
 #La programación en Python es divertida
 

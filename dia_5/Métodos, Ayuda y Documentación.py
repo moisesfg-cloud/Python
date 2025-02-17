@@ -1,6 +1,4 @@
 #Los metodos: son funciones de los objetos, permiten manipularlos, analizarlos, ejetuctar acciones
-from traceback import print_tb
-
 dic = {'clave':100,'clave2':500}
 a =dic.popitem()
 
@@ -24,6 +22,6 @@ frutas.insert(3,"naranja")
 print(frutas)
 
 marcas_smartphones = {"Samsung", "Xiaomi", "Apple", "Huawei", "LG"}
-marcas_tv = {"Sony", "Philips", "Samsung", "LG"}
+marcas_tv = {"Sony", "Philips", "Samsung", "LG",}
 conjuntos_aislados = marcas_smartphones.isdisjoint(marcas_tv)
 print(conjuntos_aislados)
