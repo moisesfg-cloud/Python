@@ -7,7 +7,7 @@ pass"""
 moneda = 5
 while moneda > 0: #Mientras monedas sea mayor a 0
     print(f"Tengo {moneda} monedas" )
-    moneda -=1
+    moneda -=1 #Igual a las que tengo menos 1
     """Puede ser de estas dos formas
     moneda = moneda -1 En cada loop se perdera una moneda, con esta linea
     moneda -= 1
@@ -26,15 +26,15 @@ else:
 
 print("<--------------------------->")
 print("PASS") #Nos ayuda a pasar, se encarga de guardar el lugar para poder continuar con las ejecuciones
-"""
-respuesta = 'S'
+
+"""respuesta = 'S'
 while respuesta == 'S':
-   pass
-"""
+   pass"""
+
 print("<--------------------------->")
 
 print("BREAK") #Interrumpe y nos permite salir
-nombre = input("Tu nombre ")
+nombre = input("Tu nombre: ")
 for i  in nombre:
     if i == 's':
      break
@@ -43,7 +43,7 @@ for i  in nombre:
 print("<--------------------------->")
 
 print("CONTINUE") #Permite continuar sin el valor que se buscaba, si busco la 's' dentro de "moises" se imprime moie porque las s son el elemnto que se buscaba
-nombre = input("Tu nombre ")
+nombre = input("Tu nombre: ")
 for i  in nombre:
     if i == 's':
      continue

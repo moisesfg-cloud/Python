@@ -17,6 +17,7 @@ print(type(mi_set))
 print(mi_set)
 
 print("<------------------->\n")
+
 #Que no se puede hacer en los set
 #mi_set = ((1,2,3,4))
 #mi_set[0] = 3

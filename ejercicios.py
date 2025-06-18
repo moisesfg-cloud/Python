@@ -1,25 +1,37 @@
+"""from random import *
+valor1 = opcion = choice(["cara","cruz"])
+print(valor1)
+valor2 = [1,2,3,4,5,6]
+if valor1 == "cara":
+    print("La lista se autodestruira")
+    valor2.clear()
+    print(valor2)
+if valor1 == "cruz":
+    print("La lista fue salvada")
+    print(valor2)
 
-lista_numeros=[10,20,30,40,50]
-def suma_menores(lista_numeros):
-    suma = 0
-    for i in lista_numeros: #leer numeros
-        if i in range(10,100):
-            suma += i #Va a sumar el i por si mismo
-        else:
-            pass
-    return suma
-resultado = suma_menores(lista_numeros)
-print(resultado)
+"""
+#EJERCICIOS FUNCIONES
 
-lista_numeros= [2,4,6,7,8]
-def cantidad_pares(lista_numeros):
-    numeros_pares = 0
-    for i in lista_numeros:
-        if i % 2 == 0:
-            numeros_pares += 1
-        else:
-            pass
-    return numeros_pares
-resultado = cantidad_pares(lista_numeros)
-print(resultado)
+def saludo():
+    print("Hola amiga")
+saludo()
+
+#Escribir una función que reciba un número entero positivo y devuelva su factorial
+lista_numeros = [1, 2, 3, 4, 5, 6]
+
+def lanzar_moneda():
+    opcion = choice(["cara", "cruz"])
+    return opcion
+
+def probar_suerte(moneda, lista):
+    if moneda == "cara":
+        print("La lista se autodestruira")
+        return lista.clear
+    print(lista)
+
+    if moneda == "cruz":
+        print("La lista fue salvada")
+        return lista
+    print(lista)
 

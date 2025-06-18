@@ -1,7 +1,7 @@
 #La palabra clave es def, esta palabra le dice a python que todo lo que se va a escribir es una funcion,
 #siempre con minusculas
 print("<---------------------------------->")
- 
+
 def saludar_persona(nombre): #Declaracion de la función, y valor a recibir
     """
     Esta funcion sirve para saludar a las personas
@@ -10,6 +10,7 @@ def saludar_persona(nombre): #Declaracion de la función, y valor a recibir
 saludar_persona('Moises')
 saludar_persona('Erik')
 saludar_persona('juan')
+
 print("<---------------------------------->")
 
 def mi_funcion(nombre): #Se le puede agragar una variable aunque no sepas c®ual sera el valor
@@ -23,7 +24,6 @@ def mi_funcion(nombre): #Se le puede agragar una variable aunque no sepas c®ual
 mi_funcion("Moises") # Se asigna el valor de la variable que se ingreso al principio de la funcion
 
 print("<---------------------------------->")
-
 def funcion(saludar):
     print(saludar)
 funcion("¡Hola mundo!")

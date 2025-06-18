@@ -7,8 +7,10 @@ mi_tuple = (1,2,(10,20),3,4)
 print(mi_tuple)
 
 print("<----------->\n")
+
 #Ahora solo para que nos devuelva el indice que esta en el segundo tuple se tiene que declarar asi:
 print(mi_tuple[2][1]) #Nos posicionamos en el indice 2 que pertenece al segundo tuple y solicitamos el valor que esta en el indice 1
+
 print("<----------->\n")
 #Ahora vamos a asigar un valor de la tupla a una variable
 mi_tuple = (1,2,3)
@@ -21,6 +23,7 @@ mi_tuple = (1,2,3,1,1,3,2)
 print(len(mi_tuple)) #Saber el largo de la tupla
 
 print("<----------->\n")
+
 print(".COUNT") # Nos ayuda a saber cuantas veces se repite algun valor
 mi_tuple = (1,2,3,2)
 print(mi_tuple.count(1)) #Nos brindara cuantas veces se repite el numero 1

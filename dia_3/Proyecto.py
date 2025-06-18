@@ -1,4 +1,3 @@
-from audioop import reverse
 
 print('Analizador de texto')
 print("Analisis 1")

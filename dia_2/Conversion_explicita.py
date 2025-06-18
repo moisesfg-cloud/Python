@@ -1,5 +1,14 @@
 #python necesita que el usuario haga algo para convertir un tipo de dato en otro.
 
+num1 = 5.8
+print(num1)
+print(type(num1))
+
+num2 = int(num1) #quiero que num2 sea conformado por un integer del valor de num1
+
+
+
+
 edad = input ("Ingresa tu edad: ") #Solicitamos al usuario que ingrese su edad,
 edad = int(edad) #Se hace la conversion de string (texto) a integer (número)
 print(edad) #Imprimimos el resultado de edad

@@ -5,7 +5,7 @@ y tienes solo ocho intentos para adivinar cuál crees que es el número""")
 numero_secreto = randint(0,100)
 intentos = 8
 print(numero_secreto)
-while intentos > 0:
+while intentos > 1:
     intentos -=1
     numero_usuario = int(input("Ingresa el numero a adivinar: "))
     print(f"Te quedan {intentos} intentos")

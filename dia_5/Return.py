@@ -3,18 +3,15 @@
 
 def multiplicar (numero1, numero2):
     return numero1*numero2
-
 print(multiplicar(5,10))
-
 
 print("<---------------------------------->")
 
 
 def sumar(num1,num2):
- """Esta funcion esta diseñada para sumar dos valores"""
- return num1 + num2
+    """Esta funcion esta diseñada para sumar dos valores"""
+    return num1 + num2
 resultado = sumar(10,20)
-
 
 print("<---------------------------------->")
 
@@ -30,7 +27,6 @@ resultado = multiplicar(10,50)
 print(resultado)
 
 print("<---------------------------------->")
-
 
 def multiplicar ( numero1, numero2):
     total = numero1 * numero2
@@ -48,8 +44,8 @@ multiplicar(20,30)
 print("<---------------------------------->")
 
 def potencia(num1,num2):
-   operacion = num1 **num2
-   return operacion
+    operacion = num1 **num2
+    return operacion
 potencia(3,4)
 
 print("<---------------------------------->")
@@ -59,6 +55,8 @@ def usd_a_eur(dolares):
     conversion = dolares *0.90
     print(conversion)
 usd_a_eur(dolares)
+
+print("<---------------------------------->")
 
 dolar = 1
 euro = 0.90
@@ -71,7 +69,7 @@ print("<---------------------------------->")
 
 palabra = "Python"
 def invertir_palabra(palabra):
- print(palabra[::-1].upper())
+    print(palabra[::-1].upper())
 
 """pal = "Python"
 print(pal[::-1].upper())"""

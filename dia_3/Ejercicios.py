@@ -31,7 +31,7 @@ ingreso_letras = input("Ingresa una lista de palabras separadas: ")
 lista = ingreso_letras.split()
 print(lista)"""
 
-texto = "Si la implementación es difícil de explicar, puede que sea una mala idea."
+"""texto = "Si la implementación es difícil de explicar, puede que sea una mala idea."
 reemplazo = (texto.replace("difícil","facil").replace("mala","buena"))
 print(reemplazo)
 
@@ -43,7 +43,10 @@ print(lista)
 
 ingreso = int(input("Ingresa el precio del producto: $"))
 iva = ingreso * 21 /100
-print(f"El precio de tu producto con iva seria de ${iva + ingreso}")
+print(f"El precio de tu producto con iva seria de ${iva + ingreso}")"""
 
-
+usuario = input("Ingresa una letra: ")
+mi_lista = []
+mi_lista.append(usuario)
+print(mi_lista)
 

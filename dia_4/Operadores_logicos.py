@@ -3,8 +3,6 @@ and y (True si dos declaraciones son True)
 or o (True si al menos una declaración es True)
 not no (invierte el valor del booleano)
 """
-from dia_2.Conversiones_implicitas import texto
-
 #Comparacion directa
 mi_bool = 4 > 5 < 6
 print(mi_bool)

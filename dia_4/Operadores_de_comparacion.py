@@ -31,6 +31,10 @@ print("<--------------------------->")
 mi_bool = 10*10 == 100
 print(mi_bool)
 
+print("<--------------------------->")
+
+mi_bool = 'blanco' == 'negro'
+print(mi_bool)
 
 
 

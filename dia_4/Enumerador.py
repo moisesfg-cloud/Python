@@ -7,7 +7,6 @@ from operator import index
 
 lista = ['a','b','c']
 indice = 0
-
 for i in lista:
     print(indice,lista)
     indice +=1

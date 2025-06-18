@@ -57,7 +57,7 @@ else:
 print("<--------------------------->")
 
 
-"""edad = int(input("Ingresa tu edad: "))
+edad = int(input("Ingresa tu edad: "))
 tiene_licencia = False #No tiene
 "Puedes conducir"
 "No puedes conducir aún. Debes tener 18 años y contar con una licencia"
@@ -67,7 +67,7 @@ if edad > 18:
 elif edad < 18:
     print("No puedes conducir aún. Debes tener 18 años y contar con una licencia")
 else:
-    print("No puedes conducir. Necesitas contar con una licencia")"""
+    print("No puedes conducir. Necesitas contar con una licencia")
 
 print("<--------------------------->")
 

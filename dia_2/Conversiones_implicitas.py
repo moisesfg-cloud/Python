@@ -1,12 +1,12 @@
 #Python las hace en automatico: convierte el tipo de datos en otro tipo de dato automáticamente y el usuario no debera hacer nada
 
-"""num1  = 5.8 #Asignamos un valor a la variable
+num1  = 5.8 #Asignamos un valor a la variable
 print(num1) #Imprimimos la variable
 print(type(num1)) #Se imprime el tipo de variable
 num2 = int(num1) #Se hace la conversion para que el valor de la variable sea igual a un integer.
 print(num2) #Se imprime el nuevo valor de "num2"
 print(type(num2)) #Imprimimos el tipo de dato que ahora pertenece a "num2"
-"""
+
 
 entero = 15 #Brindar un valor a la variable
 flotante = 32.2 #Brindar un valor a la variable
