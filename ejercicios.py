@@ -11,6 +11,9 @@ if valor1 == "cruz":
     print(valor2)
 
 """
+import random
+
+
 #EJERCICIOS FUNCIONES
 
 def saludo():
@@ -21,7 +24,7 @@ saludo()
 lista_numeros = [1, 2, 3, 4, 5, 6]
 
 def lanzar_moneda():
-    opcion = choice(["cara", "cruz"])
+    opcion = random.choice(["cara", "cruz"])
     return opcion
 
 def probar_suerte(moneda, lista):
